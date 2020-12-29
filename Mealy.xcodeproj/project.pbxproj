@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		A603BAD2259AC6DC0027DEBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */; };
 		A603BAD4259AC6DC0027DEBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */; };
-		A603BAD6259AC6DC0027DEBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD5259AC6DC0027DEBA /* ViewController.swift */; };
 		A603BAD9259AC6DC0027DEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A603BAD7259AC6DC0027DEBA /* Main.storyboard */; };
 		A603BADB259AC6DF0027DEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A603BADA259AC6DF0027DEBA /* Assets.xcassets */; };
 		A603BADE259AC6DF0027DEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A603BADC259AC6DF0027DEBA /* LaunchScreen.storyboard */; };
 		A603BAE9259AC6DF0027DEBA /* MealyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAE8259AC6DF0027DEBA /* MealyTests.swift */; };
 		A603BAF4259AC6DF0027DEBA /* MealyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAF3259AC6DF0027DEBA /* MealyUITests.swift */; };
+		A603BB08259AC89B0027DEBA /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB07259AC89B0027DEBA /* MainController.swift */; };
+		A603BB11259AC8D90027DEBA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB10259AC8D90027DEBA /* HomeController.swift */; };
+		A603BB16259AC8FC0027DEBA /* PantryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB15259AC8FC0027DEBA /* PantryController.swift */; };
+		A603BB1B259ACE1E0027DEBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB1A259ACE1E0027DEBA /* Constants.swift */; };
+		A603BB22259ACF660027DEBA /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB20259ACF660027DEBA /* FoodCell.swift */; };
+		A603BB23259ACF660027DEBA /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A603BB21259ACF660027DEBA /* FoodCell.xib */; };
+		A603BB2C259AD1180027DEBA /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB2B259AD1180027DEBA /* Food.swift */; };
+		A603BB3F259AEE6D0027DEBA /* FoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BB3E259AEE6D0027DEBA /* FoodController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		A603BACE259AC6DC0027DEBA /* Mealy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A603BAD5259AC6DC0027DEBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A603BAD8259AC6DC0027DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A603BADA259AC6DF0027DEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A603BADD259AC6DF0027DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		A603BAEF259AC6DF0027DEBA /* MealyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A603BAF3259AC6DF0027DEBA /* MealyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealyUITests.swift; sourceTree = "<group>"; };
 		A603BAF5259AC6DF0027DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A603BB07259AC89B0027DEBA /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		A603BB10259AC8D90027DEBA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A603BB15259AC8FC0027DEBA /* PantryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryController.swift; sourceTree = "<group>"; };
+		A603BB1A259ACE1E0027DEBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A603BB20259ACF660027DEBA /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		A603BB21259ACF660027DEBA /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		A603BB2B259AD1180027DEBA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A603BB3E259AEE6D0027DEBA /* FoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,15 @@
 		A603BAD0259AC6DC0027DEBA /* Mealy */ = {
 			isa = PBXGroup;
 			children = (
+				A603BB2A259AD0FA0027DEBA /* Models */,
+				A603BB1F259ACF300027DEBA /* Views */,
+				A603BB0C259AC8B90027DEBA /* Controllers */,
 				A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */,
 				A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */,
-				A603BAD5259AC6DC0027DEBA /* ViewController.swift */,
-				A603BAD7259AC6DC0027DEBA /* Main.storyboard */,
 				A603BADA259AC6DF0027DEBA /* Assets.xcassets */,
 				A603BADC259AC6DF0027DEBA /* LaunchScreen.storyboard */,
 				A603BADF259AC6DF0027DEBA /* Info.plist */,
+				A603BB1A259ACE1E0027DEBA /* Constants.swift */,
 			);
 			path = Mealy;
 			sourceTree = "<group>";
@@ -126,6 +142,35 @@
 				A603BAF5259AC6DF0027DEBA /* Info.plist */,
 			);
 			path = MealyUITests;
+			sourceTree = "<group>";
+		};
+		A603BB0C259AC8B90027DEBA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A603BB07259AC89B0027DEBA /* MainController.swift */,
+				A603BB10259AC8D90027DEBA /* HomeController.swift */,
+				A603BB15259AC8FC0027DEBA /* PantryController.swift */,
+				A603BB3E259AEE6D0027DEBA /* FoodController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A603BB1F259ACF300027DEBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A603BAD7259AC6DC0027DEBA /* Main.storyboard */,
+				A603BB20259ACF660027DEBA /* FoodCell.swift */,
+				A603BB21259ACF660027DEBA /* FoodCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A603BB2A259AD0FA0027DEBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A603BB2B259AD1180027DEBA /* Food.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A603BADE259AC6DF0027DEBA /* LaunchScreen.storyboard in Resources */,
+				A603BB23259ACF660027DEBA /* FoodCell.xib in Resources */,
 				A603BADB259AC6DF0027DEBA /* Assets.xcassets in Resources */,
 				A603BAD9259AC6DC0027DEBA /* Main.storyboard in Resources */,
 			);
@@ -258,9 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A603BAD6259AC6DC0027DEBA /* ViewController.swift in Sources */,
+				A603BB3F259AEE6D0027DEBA /* FoodController.swift in Sources */,
+				A603BB16259AC8FC0027DEBA /* PantryController.swift in Sources */,
+				A603BB11259AC8D90027DEBA /* HomeController.swift in Sources */,
+				A603BB22259ACF660027DEBA /* FoodCell.swift in Sources */,
+				A603BB08259AC89B0027DEBA /* MainController.swift in Sources */,
 				A603BAD2259AC6DC0027DEBA /* AppDelegate.swift in Sources */,
+				A603BB2C259AD1180027DEBA /* Food.swift in Sources */,
 				A603BAD4259AC6DC0027DEBA /* SceneDelegate.swift in Sources */,
+				A603BB1B259ACE1E0027DEBA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

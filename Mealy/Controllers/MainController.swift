@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainController.swift
 //  Mealy
 //
 //  Created by Lucas Budz on 2020-12-28.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-
