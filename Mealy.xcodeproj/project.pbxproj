@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A603BAD2259AC6DC0027DEBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */; };
+		A603BAD4259AC6DC0027DEBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */; };
+		A603BAD6259AC6DC0027DEBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAD5259AC6DC0027DEBA /* ViewController.swift */; };
+		A603BAD9259AC6DC0027DEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A603BAD7259AC6DC0027DEBA /* Main.storyboard */; };
+		A603BADB259AC6DF0027DEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A603BADA259AC6DF0027DEBA /* Assets.xcassets */; };
+		A603BADE259AC6DF0027DEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A603BADC259AC6DF0027DEBA /* LaunchScreen.storyboard */; };
+		A603BAE9259AC6DF0027DEBA /* MealyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAE8259AC6DF0027DEBA /* MealyTests.swift */; };
+		A603BAF4259AC6DF0027DEBA /* MealyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BAF3259AC6DF0027DEBA /* MealyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A603BAE5259AC6DF0027DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A603BAC6259AC6DC0027DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A603BACD259AC6DC0027DEBA;
+			remoteInfo = Mealy;
+		};
+		A603BAF0259AC6DF0027DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A603BAC6259AC6DC0027DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A603BACD259AC6DC0027DEBA;
+			remoteInfo = Mealy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A603BACE259AC6DC0027DEBA /* Mealy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A603BAD5259AC6DC0027DEBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A603BAD8259AC6DC0027DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A603BADA259AC6DF0027DEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A603BADD259AC6DF0027DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A603BADF259AC6DF0027DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A603BAE4259AC6DF0027DEBA /* MealyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A603BAE8259AC6DF0027DEBA /* MealyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealyTests.swift; sourceTree = "<group>"; };
+		A603BAEA259AC6DF0027DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A603BAEF259AC6DF0027DEBA /* MealyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A603BAF3259AC6DF0027DEBA /* MealyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealyUITests.swift; sourceTree = "<group>"; };
+		A603BAF5259AC6DF0027DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A603BACB259AC6DC0027DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAE1259AC6DF0027DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAEC259AC6DF0027DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A603BAC5259AC6DC0027DEBA = {
+			isa = PBXGroup;
+			children = (
+				A603BAD0259AC6DC0027DEBA /* Mealy */,
+				A603BAE7259AC6DF0027DEBA /* MealyTests */,
+				A603BAF2259AC6DF0027DEBA /* MealyUITests */,
+				A603BACF259AC6DC0027DEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A603BACF259AC6DC0027DEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A603BACE259AC6DC0027DEBA /* Mealy.app */,
+				A603BAE4259AC6DF0027DEBA /* MealyTests.xctest */,
+				A603BAEF259AC6DF0027DEBA /* MealyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A603BAD0259AC6DC0027DEBA /* Mealy */ = {
+			isa = PBXGroup;
+			children = (
+				A603BAD1259AC6DC0027DEBA /* AppDelegate.swift */,
+				A603BAD3259AC6DC0027DEBA /* SceneDelegate.swift */,
+				A603BAD5259AC6DC0027DEBA /* ViewController.swift */,
+				A603BAD7259AC6DC0027DEBA /* Main.storyboard */,
+				A603BADA259AC6DF0027DEBA /* Assets.xcassets */,
+				A603BADC259AC6DF0027DEBA /* LaunchScreen.storyboard */,
+				A603BADF259AC6DF0027DEBA /* Info.plist */,
+			);
+			path = Mealy;
+			sourceTree = "<group>";
+		};
+		A603BAE7259AC6DF0027DEBA /* MealyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A603BAE8259AC6DF0027DEBA /* MealyTests.swift */,
+				A603BAEA259AC6DF0027DEBA /* Info.plist */,
+			);
+			path = MealyTests;
+			sourceTree = "<group>";
+		};
+		A603BAF2259AC6DF0027DEBA /* MealyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A603BAF3259AC6DF0027DEBA /* MealyUITests.swift */,
+				A603BAF5259AC6DF0027DEBA /* Info.plist */,
+			);
+			path = MealyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A603BACD259AC6DC0027DEBA /* Mealy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A603BAF8259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "Mealy" */;
+			buildPhases = (
+				A603BACA259AC6DC0027DEBA /* Sources */,
+				A603BACB259AC6DC0027DEBA /* Frameworks */,
+				A603BACC259AC6DC0027DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mealy;
+			productName = Mealy;
+			productReference = A603BACE259AC6DC0027DEBA /* Mealy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A603BAE3259AC6DF0027DEBA /* MealyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A603BAFB259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "MealyTests" */;
+			buildPhases = (
+				A603BAE0259AC6DF0027DEBA /* Sources */,
+				A603BAE1259AC6DF0027DEBA /* Frameworks */,
+				A603BAE2259AC6DF0027DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A603BAE6259AC6DF0027DEBA /* PBXTargetDependency */,
+			);
+			name = MealyTests;
+			productName = MealyTests;
+			productReference = A603BAE4259AC6DF0027DEBA /* MealyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A603BAEE259AC6DF0027DEBA /* MealyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A603BAFE259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "MealyUITests" */;
+			buildPhases = (
+				A603BAEB259AC6DF0027DEBA /* Sources */,
+				A603BAEC259AC6DF0027DEBA /* Frameworks */,
+				A603BAED259AC6DF0027DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A603BAF1259AC6DF0027DEBA /* PBXTargetDependency */,
+			);
+			name = MealyUITests;
+			productName = MealyUITests;
+			productReference = A603BAEF259AC6DF0027DEBA /* MealyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A603BAC6259AC6DC0027DEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A603BACD259AC6DC0027DEBA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A603BAE3259AC6DF0027DEBA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A603BACD259AC6DC0027DEBA;
+					};
+					A603BAEE259AC6DF0027DEBA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A603BACD259AC6DC0027DEBA;
+					};
+				};
+			};
+			buildConfigurationList = A603BAC9259AC6DC0027DEBA /* Build configuration list for PBXProject "Mealy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A603BAC5259AC6DC0027DEBA;
+			productRefGroup = A603BACF259AC6DC0027DEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A603BACD259AC6DC0027DEBA /* Mealy */,
+				A603BAE3259AC6DF0027DEBA /* MealyTests */,
+				A603BAEE259AC6DF0027DEBA /* MealyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A603BACC259AC6DC0027DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A603BADE259AC6DF0027DEBA /* LaunchScreen.storyboard in Resources */,
+				A603BADB259AC6DF0027DEBA /* Assets.xcassets in Resources */,
+				A603BAD9259AC6DC0027DEBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAE2259AC6DF0027DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAED259AC6DF0027DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A603BACA259AC6DC0027DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A603BAD6259AC6DC0027DEBA /* ViewController.swift in Sources */,
+				A603BAD2259AC6DC0027DEBA /* AppDelegate.swift in Sources */,
+				A603BAD4259AC6DC0027DEBA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAE0259AC6DF0027DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A603BAE9259AC6DF0027DEBA /* MealyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603BAEB259AC6DF0027DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A603BAF4259AC6DF0027DEBA /* MealyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A603BAE6259AC6DF0027DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A603BACD259AC6DC0027DEBA /* Mealy */;
+			targetProxy = A603BAE5259AC6DF0027DEBA /* PBXContainerItemProxy */;
+		};
+		A603BAF1259AC6DF0027DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A603BACD259AC6DC0027DEBA /* Mealy */;
+			targetProxy = A603BAF0259AC6DF0027DEBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A603BAD7259AC6DC0027DEBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A603BAD8259AC6DC0027DEBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A603BADC259AC6DF0027DEBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A603BADD259AC6DF0027DEBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A603BAF6259AC6DF0027DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A603BAF7259AC6DF0027DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A603BAF9259AC6DF0027DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = Mealy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.Mealy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A603BAFA259AC6DF0027DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = Mealy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.Mealy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A603BAFC259AC6DF0027DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = MealyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.MealyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealy.app/Mealy";
+			};
+			name = Debug;
+		};
+		A603BAFD259AC6DF0027DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = MealyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.MealyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealy.app/Mealy";
+			};
+			name = Release;
+		};
+		A603BAFF259AC6DF0027DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = MealyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.MealyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mealy;
+			};
+			name = Debug;
+		};
+		A603BB00259AC6DF0027DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NMR3N49BP;
+				INFOPLIST_FILE = MealyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbudz.MealyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mealy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A603BAC9259AC6DC0027DEBA /* Build configuration list for PBXProject "Mealy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A603BAF6259AC6DF0027DEBA /* Debug */,
+				A603BAF7259AC6DF0027DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A603BAF8259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "Mealy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A603BAF9259AC6DF0027DEBA /* Debug */,
+				A603BAFA259AC6DF0027DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A603BAFB259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "MealyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A603BAFC259AC6DF0027DEBA /* Debug */,
+				A603BAFD259AC6DF0027DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A603BAFE259AC6DF0027DEBA /* Build configuration list for PBXNativeTarget "MealyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A603BAFF259AC6DF0027DEBA /* Debug */,
+				A603BB00259AC6DF0027DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A603BAC6259AC6DC0027DEBA /* Project object */;
+}
